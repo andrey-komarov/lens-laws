@@ -1,0 +1,37 @@
+name:                lens-laws
+version:             0.4
+synopsis:            Properties for lens laws
+description:
+  Predicates for  checking @Lens@es, @Setter@s, @Traversal@s, @Iso@s and
+  @Prism@s laws.
+homepage:            https://github.com/jdnavarro/lens-laws
+bug-reports:         https://github.com/jdnavarro/lens-laws/issues
+license:             BSD3
+license-file:        LICENSE
+author:              Danny Navarro
+maintainer:          j@dannynavarro.net
+category:            Testing, Lenses
+build-type:          Simple
+cabal-version:       >=1.10
+tested-with:         GHC == 7.6.3, GHC == 7.8.4, GHC == 7.10.2
+extra-source-files:  README.md CHANGELOG.md stack.yaml
+
+source-repository head
+  type: git
+  location: git://github.com/jdnavarro/lens-laws.git
+
+library
+  default-language:    Haskell2010
+  ghc-options:         -Wall
+  hs-source-dirs:      src
+  exposed-modules:     Control.Lens.Iso.Laws
+                       Control.Lens.Lens.Laws
+                       Control.Lens.Prism.Laws
+                       Control.Lens.Setter.Laws
+                       Control.Lens.Traversal.Laws
+  build-depends:       base >=4.6 && <4.9,
+                       transformers >=0.3.0.0,
+                       lens >=4.1.2.1
+
+  if impl(ghc < 7.8)
+     build-depends: tagged >=0.7.2

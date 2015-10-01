@@ -1,11 +1,9 @@
-# Lens SmallCheck
+# Lens Laws
 
-[![Hackage Version](https://img.shields.io/hackage/v/smallcheck-lens.svg)](https://hackage.haskell.org/package/smallcheck-lens) [![Build Status](https://img.shields.io/travis/jdnavarro/smallcheck-lens.svg)](https://travis-ci.org/jdnavarro/smallcheck-lens)
+[![Hackage Version](https://img.shields.io/hackage/v/lens-laws.svg)](https://hackage.haskell.org/package/lens-laws)
+[![Build Status](https://img.shields.io/travis/jdnavarro/lens-laws.svg)](https://travis-ci.org/jdnavarro/lens-laws)
 
-[`smallcheck`](https://hackage.haskell.org/package/smallcheck) properties
-inspired by
-[`lens-properties`](https://hackage.haskell.org/package/lens-properties).
-They can be used to validate the laws for:
+Helper predicates for property testting the following laws:
 
 - `Lens`
 - `Setter`
@@ -13,8 +11,8 @@ They can be used to validate the laws for:
 - `Iso`
 - `Prism`
 
-Use this package to create your own fine tuned tests. For preassembled
-test runners with minimal setup and sensible defaults, you can use
+You can use this package to create your own property tests. For tests with
+minimal setup and sensible defaults, you can use
 [`tasty-lens`](https://hackage.haskell.org/package/tasty-lens).
 
 ## Contact

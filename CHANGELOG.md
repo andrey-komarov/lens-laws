@@ -1,8 +1,9 @@
 # Change Log
-All notable changes to this project will be documented in this file. This file
-follows the formatting recommendations from [Keep a
-CHANGELOG](http://keepachangelog.com/). This project adheres to [Semantic
-Versioning](http://semver.org/).
+All notable changes to this project will be documented in this file. See [Keep
+a CHANGELOG](http://keepachangelog.com/).
+
+## [Unreleased][unreleased]
+- Fork from [`smallcheck-lens`](https://github.com/jdnavarro/smallcheck-lens).
 
 ## [0.3] - 2015-09-11
 ### Changed
@@ -27,5 +28,6 @@ Versioning](http://semver.org/).
 - `tasty` test trees for each `Lens` type.
 - Tests for some `Lens`.
 
-[0.3]: https://github.com/jdnavarro/smallcheck-lens/compare/v0.1...v0.3
-[0.1]: https://github.com/jdnavarro/smallcheck-lens/compare/1df060...v0.1
+[unreleased]: https://github.com/jdnavarro/lens-laws/compare/v0.3...HEAD
+[0.3]: https://github.com/jdnavarro/lens-laws/compare/v0.1...v0.3
+[0.1]: https://github.com/jdnavarro/lens-laws/compare/1df060...v0.1
