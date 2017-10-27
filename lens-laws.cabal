@@ -29,7 +29,7 @@ library
                        Control.Lens.Prism.Laws
                        Control.Lens.Setter.Laws
                        Control.Lens.Traversal.Laws
-  build-depends:       base >=4.6 && <4.9,
+  build-depends:       base >=4.6 && <5.0,
                        transformers >=0.3.0.0,
                        lens >=4.1.2.1
 
